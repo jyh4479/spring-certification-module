@@ -1,11 +1,11 @@
 package module.springcertification.service;
 
-import module.springcertification.dto.UserLoginInformationDto;
+import module.springcertification.dto.UserLoginInformation;
 import org.springframework.stereotype.Service;
 
 @Service
 public class UserLoginService {
-    public Boolean userLoginCheck(UserLoginInformationDto userInfo) {
+    public Boolean userLoginCheck(UserLoginInformation userInfo) {
         return true;
     }
 }

@@ -1,10 +1,9 @@
 package module.springcertification.dto;
 
-import lombok.Data;
+import lombok.Getter;
 
-@Data
-public class UserLoginInformationDto {
-
+@Getter
+public class UserLoginInformation {
     private String id;
     private String password;
 }
